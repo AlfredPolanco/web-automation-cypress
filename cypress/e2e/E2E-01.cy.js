@@ -31,6 +31,7 @@ describe('Web Automation', function () {
 		addQuantity();
 		clickOnAddToCartButton();
 	});
+
 	it('TC-02 - Checkout Process', function () {
 		clickOnSignUpLoginHeader();
 		typeSignUpForm();
@@ -43,6 +44,7 @@ describe('Web Automation', function () {
 		clickOnContinueButton();
 		clickOnSignUpLoginHeader();
 	});
+
 	it('TC-03 - User Authentication and Contact Form', function () {
 		clickOnSignUpLoginHeader();
 		fillLoginForm();
