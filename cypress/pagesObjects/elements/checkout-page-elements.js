@@ -8,5 +8,5 @@ const placeOrderButton = {
 
 export const checkoutPageElements = {
 	commentBox,
-	placeOrderButton,
+	placeOrderButton
 };

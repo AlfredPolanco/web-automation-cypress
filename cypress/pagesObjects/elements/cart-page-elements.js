@@ -8,5 +8,5 @@ const registerLoginButton = {
 
 export const cartPageElements = {
 	proceedToCheckoutButton,
-	registerLoginButton,
+	registerLoginButton
 };

@@ -1,22 +1,27 @@
 const viewProduct = {
-	selector: '[data-qa="name"]'
+	selector: ':nth-child(24) > .product-image-wrapper > .choose > .nav > li > a'
+};
+
+const productHeader = {
+	selector: '.shop-menu > .nav > :nth-child(2) > a'
 };
 
 const cartHeader = {
-	selector: '[data-qa="email"]'
+	selector: '.shop-menu > .nav > :nth-child(3) > a'
 };
 
-const logoutHeader = {
-	selector: '[data-qa="subject"]'
+const signUpLoginHeader = {
+	selector: '.shop-menu > .nav > :nth-child(4) > a'
 };
 
 const contactUsHeader = {
-	selector: '[data-qa="message"]'
+	selector: '.nav > :nth-child(9)'
 };
 
 export const homePageElements = {
 	viewProduct,
+	productHeader,
 	cartHeader,
-	logoutHeader,
+	signUpLoginHeader,
 	contactUsHeader
 };
