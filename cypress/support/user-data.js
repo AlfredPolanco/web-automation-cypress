@@ -9,8 +9,11 @@ const testData = {
 		length: 10,
 		pattern: /[A-Z-0-9!@#$%^&*()]/
 	}),
+	phoneNumber: faker.phone.number(),
 	country: faker.location.country(),
 	city: faker.location.city(),
+	streetAddress: faker.location.streetAddress(false),
+	zipCode: faker.location.zipCode(),
 	creditCard: faker.finance.creditCardNumber(),
 	creditCardCVV: faker.finance.creditCardCVV(),
 	creditCardMonth: faker.helpers.fromRegExp('[1-12]'),

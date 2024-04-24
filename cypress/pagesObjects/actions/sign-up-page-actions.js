@@ -15,13 +15,17 @@ export function fillSignUpForm() {
 	cy.get(signUpPageElements.lastNameInput.selector).type(
 		mockData.testData.lastName
 	);
-	cy.get(signUpPageElements.addressInput.selector).type('1180 Pearl Tree Ave');
+	cy.get(signUpPageElements.addressInput.selector).type(
+		mockData.testData.streetAddress
+	);
 	cy.get(signUpPageElements.countryInput.selector).select('United States');
 	cy.get(signUpPageElements.stateInput.selector).type('Florida');
 	cy.get(signUpPageElements.cityInput.selector).type('Orlando');
-	cy.get(signUpPageElements.zipCodeInput.selector).type('33178');
+	cy.get(signUpPageElements.zipCodeInput.selector).type(
+		mockData.testData.zipCode
+	);
 	cy.get(signUpPageElements.mobilePhoneNumberInput.selector).type(
-		'11111112323'
+		mockData.testData.phoneNumber
 	);
 	cy.get(signUpPageElements.createAccountButton.selector).click();
 }

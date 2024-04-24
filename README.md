@@ -3,7 +3,8 @@
 The provided project is an automation framework crafted using Cypress and incorporates best practices in JavaScript. It has been designed to address specific modules outlined in a comprehensive test plan for [AutomationExercise](https://automationexercise.com/)
 
 # Test Plan, Design, & strategy
-### Test cases are currently documented on TBD
+Test cases are currently documented on *Test Plan, Design & Strategy for AutomationExercise.com.pdf* which is located at the root of this project.
+
 
 ## Tech Stack
 
