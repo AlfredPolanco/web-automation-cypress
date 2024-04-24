@@ -1,0 +1,22 @@
+import { faker } from '@faker-js/faker';
+
+const testData = {
+	fullName: faker.person.fullName(),
+	firstName: faker.person.firstName(),
+	lastName: faker.person.lastName(),
+	email: faker.internet.email({ firstName: faker.person.firstName() }),
+	password: faker.internet.password({
+		length: 10,
+		pattern: /[A-Z-0-9!@#$%^&*()]/
+	}),
+	country: faker.location.country(),
+	city: faker.location.city(),
+	creditCard: faker.finance.creditCardNumber(),
+	creditCardCVV: faker.finance.creditCardCVV(),
+	creditCardMonth: faker.helpers.fromRegExp('[1-12]'),
+	creditCardYear: faker.helpers.rangeToNumber({ min: 2025, max: 2030 })
+};
+
+export const mockData = {
+	testData
+};
