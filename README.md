@@ -33,7 +33,7 @@ npm i
 npx cypress open
 ```
 
-- To run Cypress headless tests just run the following command. Once done running, a report will be generated on `cypress/reports`
+- To run Cypress headless tests just run the following command. Once done running, a report will be generated on `cypress/reports/html`
 ```
 npm run test
 ```
