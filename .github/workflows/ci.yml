@@ -10,10 +10,10 @@ jobs:
         uses: actions/checkout@v2
       # Install NPM dependencies
 
-      - name: Run ESLint
+      - name: Run Prettier
         uses: actions/checkout@v2
         with:
-           start: npm run check-format
+           run: npm run check-format
 
 
   Cypress-run:
