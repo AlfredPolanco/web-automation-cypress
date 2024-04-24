@@ -4,7 +4,10 @@ import { clickOnProceedToCheckoutButton } from '../pagesObjects/actions/cart-pag
 import { placeOrder } from '../pagesObjects/actions/checkout-page-actions';
 import { clickOnContinueButton } from '../pagesObjects/actions/common-page-actions';
 import { fillAndSubmitContactUsForm } from '../pagesObjects/actions/contact-us-page-actions';
-import { fillLoginForm, typeSignUpForm } from '../pagesObjects/actions/login-page-actions';
+import {
+	fillLoginForm,
+	typeSignUpForm
+} from '../pagesObjects/actions/login-page-actions';
 import {
 	addQuantity,
 	clickOnAddToCartButton,
@@ -17,7 +20,6 @@ import {
 	clickOnCartHeader,
 	clickOnContactUSHeader
 } from '../pagesObjects/actions/home-page-actions';
-
 
 describe('Web Automation', function () {
 	beforeEach(function () {
