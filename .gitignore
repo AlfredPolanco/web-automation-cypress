@@ -130,3 +130,4 @@ dist
 .pnp.*
 
 *.html
+*.DS_Store
